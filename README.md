@@ -1,4 +1,4 @@
-# sistem-informasi
+# Sistem Informasi
 Sistem Informasi Pemesanan Kamar Hotel Menggunakan PHP dan MySQL
 
 Web Server : Xampp (Apache) 5.6.8
