@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME}.php -f
+ RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+Options -Indexes
+
+ErrorDocument 404 http://localhost/horison/404

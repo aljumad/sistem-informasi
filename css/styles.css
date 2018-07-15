@@ -1,0 +1,725 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url('../gambar/bg3.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header, nav, main, footer {
+	max-width: 100%;
+}
+
+nav {
+	height: 130px;
+	overflow: hidden;
+	background-color:#B40301;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%;
+}
+nav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;
+	border-right: 1px solid white;
+}
+nav a:hover {
+	background: yellow;
+  color: black;
+}
+nav img {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#det table tr td {
+	color: white;
+}
+
+main {
+	width: 100%;
+	height: auto;
+	margin-top: 130px;
+	margin-bottom: 0;
+}
+
+main table {
+	margin: 16px;
+	background: rgba(255,255,255,0.6);
+}
+
+main table tr td {
+
+}
+
+main input {
+	border: 0;
+	background: white;
+	color: black;
+	padding: 3px;
+}
+
+main select {
+	height: 27px;
+}
+
+#reservasi {
+	width: 60%;
+	height: 150px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	text-align: center;
+	margin-top: 30px;
+}
+
+main li {
+	background: #B40301;
+	padding: 10px;
+	list-style: none;
+	font-weight: bold;
+}
+
+#tentang {
+	width: 96%;
+	height: 200px;
+	background: rgba(0,0,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	clear: both;
+}
+
+#tentang p {
+	text-align: justify;
+	color: white;
+}
+
+#tentang h3 {
+	text-decoration: underline;
+}
+
+#cekinout {
+	width: 96%;
+	height: 200px;
+	background: rgba(0,155,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: o;
+	font-family: sans-serif;
+}
+
+#cekinout p {
+	color: white;
+}
+
+#cekinout h3 {
+	text-decoration: underline;
+}
+
+#petalokasi {
+	width: 96%;
+	background: rgba(155,0,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: o;
+	font-family: sans-serif;
+	text-decoration: underline;
+}
+
+#fas1 {
+	width: 96%;
+	background: rgba(0,0,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 30px;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+#fas2 {
+	width: 96%;
+	background: rgba(0,155,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-family: sans-serif;
+}
+
+#fas3 {
+	width: 96%;
+	background: rgba(155,0,155,0.7);
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-family: sans-serif;
+}
+
+#log {
+	border:2px solid #B40301;
+	height:300px;
+	margin-top:15px;
+	width: 280px;
+	color: black;
+	font-weight: bold;
+}
+
+#log li {
+	list-style:none;
+	padding:10px;
+	background:#B40301;
+	font-family:Cataneo BT;
+	font-weight:bold;
+	font-size:18px;
+	color:#FFF;
+}
+
+#fasilitas {
+	margin: 10px;
+	font-family:Cataneo BT;
+	font-size:16px;
+}
+
+#fasilitas li {
+	list-style:none;
+	padding:10px;
+	background:#B40301;
+	font-family:Cataneo BT;
+	font-weight:bold;
+	font-size:17px;
+	color:#FFF;
+}
+
+#fasilitas table tr td {
+	color: black;
+	width: 600px;
+	font-weight: bold;
+}
+
+#layanan table {
+	width: 600px;
+
+
+}
+
+#layanan table tr td {
+	border: 1px solid #B40301;
+	font-weight: normal;
+	padding: 4px;
+}
+
+footer {
+	height: 50px;
+	background: #B40301;
+	margin-top: 0;
+	clear: both;
+}
+
+ul li {
+	list-style: none;
+}
+
+.judul {
+	padding-top: 15px;
+	margin-left: 15px;
+	color: white;
+}
+
+.desc {
+	margin-left: 15px;
+	color: #F2F2F2;
+	padding-top: 5px;
+}
+
+.menu {
+	text-decoration: none;
+	float: left;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	margin-top: 8px;
+	margin-left: 15px;
+}
+
+.menu:hover {
+	background-color: black;
+	color: yellow;
+}
+
+h6 {
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+}
+
+table tr {
+	line-height: 25px;
+}
+
+table {
+	margin-top:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+
+input{
+	border:2px solid #F90047;
+	font-weight:bold;
+	background:rgba(255,255,255,0.05);
+	padding: 2px;
+	color:black;
+}
+
+table tr td{
+	color:black;
+	font-weight:bold;
+	width: 120px;
+}
+
+#tombol {
+	background:#B40301;
+	color:white;
+	padding:10px;
+	border:2px solid white;
+	text-decoration: none;
+}
+
+#tombol:hover {
+	background:black;
+	color:yellow;
+}
+
+#tombol2 {
+	margin-top: 15px;
+	background:black;
+	color:white;
+	padding:10px;
+	width:80px;
+	border:2px solid white;
+	text-decoration: none;
+}
+
+#tombol2:hover {
+	background:#B40301;
+	color:yellow;
+}
+
+.kotak {
+	height: 500px;
+	width: 300px;
+	background-color: blue;
+	float: left;
+	border: 0px solid #B40301;
+	margin: 6px;
+}
+
+#lokasi {
+	list-style:none;
+	padding:10px;
+	background-color: #B40301;
+	font-family:Cataneo BT;
+	font-weight:bold;
+	font-size:18px;
+	color: white;
+	margin-top: 30px;
+	width: 260px;
+	border: 2px solid #B40301;
+}
+
+#rekening {
+	border:2px solid #B40301;
+	height:340px;
+	background:white;
+	margin-top:15px;
+	width: 280px;
+	color: #B40301;
+	font-weight: bold;
+}
+
+#rekening li {
+	list-style:none;
+	padding:10px;
+	background: #B40301;
+	font-family:Cataneo BT;
+	font-weight:bold;
+	font-size:18px;
+	color:#FFF;
+}
+
+#rekening img {
+	width: 80px;
+	height: 60px;
+	margin: 3px;
+}
+
+#rekening table {
+	margin: 3px;
+}
+
+#rekening table tr td {
+	color: #B40301;
+
+}
+
+#datakamar2 {
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.kamar {
+    padding:3px;
+    padding-right: 5px;
+    width: auto;
+    background-color:#FFF;
+    border-radius:5px;
+    height:auto;
+    text-align:center;
+    float: left;
+    border: 2px solid #B40301;
+    margin: 14px;
+
+}
+
+.kamar table {
+	width: 100%;
+    float: left;
+    margin-top: 0;
+    margin: 3px;
+}
+
+.idkamar {
+    padding-top:3px;
+    background-color:#EEEEEE;
+    color:#F90047;
+    font-weight:bold;
+    padding-bottom:2px;
+}
+
+.tipekamar {
+    padding-top:5px;
+    background:#B40301;
+    color:#FFF;
+    padding-bottom:5px;
+}
+
+#daftar table tr td {
+	color: black;
+}
+
+#daftar input {
+    color: black;
+}
+
+#editprofil table tr td {
+	color: black;
+}
+
+#editprofil input {
+    color: black;
+}
+
+.adminchat {
+	margin-left: 100px;
+	padding: 2px;
+	background: red;
+	color: red;
+}
+
+#abc {
+    margin: 12px;
+    border: 2px solid #B40301;
+    text-align: center;
+    height: auto;
+    font-size: 20px;
+    color: black;
+    border-radius: 3px;
+}
+
+#abc p {
+	font-size: 17px;
+}
+
+#bbayar:hover {
+	background: black;
+	color: yellow;
+}
+
+#gantipassword {
+	visibility:hidden;
+	opacity:0;
+	margin-top:0;
+
+}
+#gantipassword:target{
+	visibility:visible;
+	-moz-transition: all 1s;
+	opacity:1;
+	position:fixed;
+	margin:0;
+	top:0;
+	left:0;
+	right:0;
+	background: rgba(0,0,255,0.5);
+	height: 100%;
+}
+.isi_popup2{
+	position: relative;
+	background: black;
+	border:1px solid #B40301;
+	padding: 2px;
+	width:40%;
+	margin-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+
+}
+.isi_popup2 li{
+	list-style:none;
+	padding:10px;
+	background:#B40301;
+	font-weight:bold;
+	font-size:14px;
+	color:#FFF;
+	margin-top: 0;
+}
+
+.isi_popup2 table{
+	background: transparent;
+	margin:3px;
+	width: 90%;
+}
+
+.isi_popup2 input {
+	border: 2px solid black;
+}
+
+.isi_popup2 table tr td{
+	font-size:13px;
+	color: white;
+}
+
+/*#daftar {
+	visibility:hidden;
+	opacity:0;
+	margin-top:0;
+
+}
+#daftar:target{
+	visibility:visible;
+	-moz-transition: all 1s;
+	opacity:1;
+	position:fixed;
+	margin:0;
+	top:0;
+	left:0;
+	right:0;
+	background: rgba(0,0,255,0.5);
+	height: 100%;
+}
+.isi_popup3{
+	position: relative;
+	background: white;
+	border:1px solid #B40301;
+	padding: 5px;
+	width:35%;
+	margin-top:100px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.isi_popup3 h3{
+	text-decoration: none;
+	padding:10px;
+	background-color: #B40301;
+	font-weight:bold;
+	font-size:17px;
+	color:#FFF;
+	margin-top: 0;
+}
+
+.isi_popup3 table{
+	background: white;
+	margin-bottom: 5px;
+}
+
+.isi_popup3 input {
+	border: 2px solid #B40301;
+}
+*/
+#tomboll {
+	margin-top: 15px;
+	background:#B40301;
+	color:white;
+	padding:10px;
+	width:80px;
+	border:2px solid white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#tomboll:hover {
+	background:black;
+	color:yellow;
+}
+
+
+
+
+
+#page{
+	margin-top: 200px;
+	margin-bottom: 70px;
+	width:400px;
+	border:0px solid;
+	height:auto;
+	background:rgba(0,0,0,0.5);
+	border: 3px solid white;
+}
+#page li{
+	margin-top:0px;
+	list-style:none;
+	padding:18px;
+	background:rgba(255,0,0,0.7);
+	font-family:Cataneo BT;
+	font-weight:bold;
+	font-size:18px;
+	color:#FFF;
+}
+#page table{
+	margin-top:40px;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-weight:bold;
+	background: transparent;
+}
+#page input{
+	border:1px solid #F90047;
+	font-weight:bold;
+	background:rgba(255,255,255,0.05);
+	color:white;
+}
+#page table tr td{
+	color:white;
+	font-weight:bold;
+}
+
+#imgindex {
+	background-image: url('../gambar/Suite-Room.jpg');
+	background-size: cover;
+	width: 96%;
+	height: 350px;
+}
+
+#imglog {
+	padding-top: 100px;
+	height: 100px;
+	margin-bottom: 80px;
+}
+
+#imglog p {
+	color: yellow;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Vivaldi;
+	background:rgba(0,0,0,0.6);
+}
+
+#imglog p a {
+	font-weight: bold;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+#kontak {
+	width: 76%;
+	background: rgba(0,155,155,0.7);
+	color: black;
+
+	padding: 15px;
+	margin-top: 10px;
+	font-family: sans-serif;
+}
+
+
+#pesankamar {
+	margin-top: 150px;
+	background: rgba(255,255,255,0.7);
+	width: 47%;
+	margin: 13px;
+	font-size: 14px;
+	color: black;
+	float: left;
+}
+
+#pesankamar table {
+	background: transparent;
+	color: black;
+	font-size: 14px;
+
+}
+
+#pesankamar table tr td {
+	color: black;
+	font-size: 14px;
+}
+
+#pesankamar table tr td input {
+	color: black;
+	font-size: 14px;
+}
+
+#pesankamar2 {
+	border:3px solid #B40301;
+	background: rgba(255,255,255,0.7);
+	width: 50%;
+	margin: 5px;
+	margin-top: 15px;
+	font-size: 12px;
+	color: black;
+}
+
+#pesankamar2 table {
+	background: transparent;
+	color: black;
+	font-size: 12px;
+	width: auto;
+}
+
+#pesankamar2 table tr td {
+	color: black;
+	font-size: 12px;
+}
+
+#pesankamar2 table tr td input {
+	color: black;
+	font-size: 12px;
+}
+#proff {
+	background: rgba(0,123,123,0.7);
+	padding: 25px;
+}
+#profilbg {
+	border: 3px solid white;
+	padding: 15px;
+	width: 50%;
+	background: rgba(123,0,123,0.7);
+}
+@media screen and (max-width: 1000px) {
+
+}

@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    max-width: 100%;
+}
+
+header {
+    height: 250px;
+    background: red;
+    background-image: url('../../gambar/banner2.jpg');
+    background-size:cover;
+}
+
+nav {
+    height: 50px;
+    background: #B40301;
+}
+
+main {
+    width: 18%;
+    height: auto;
+    float: left;
+    background: #B40301;
+}
+
+aside {
+    width: 82%;
+    height: auto;
+    background-color: white;
+    float: left;
+}
+
+footer {
+    height: 50px;
+    background: #B40301;
+    border: 2px solid #D21201;
+    clear: both;
+}
+
+ul li {
+    list-style: none;
+}
+
+.judul {
+    padding-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+
+.desc {
+    margin-left: 15px;
+    color: #F2F2F2;
+    padding-top: 5px;
+}
+
+.menu {
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.kiri {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size:17px;
+    margin-left: 5px;
+    height: 20px;
+}
+
+.kiri:hover {
+    color: yellow;
+}
+
+main ul li {
+    background: #B40301;
+    height: 20px;
+    border: 2px solid #D21201;
+    padding: 10px;
+}
+
+main ul li:hover {
+    background: black;
+}
+
+main ul li a {
+    margin-bottom: 10px;
+}
+
+main ul {
+    margin-top:0px;
+}
+
+.menu:hover {
+    background-color: black;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+table tr {
+    line-height: 25px;
+}
+
+table {
+    margin-top:20px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+input{
+    border:2px solid #F90047;
+    font-weight:bold;
+    background:rgba(255,255,255,0.05);
+    padding: 3px;
+}
+
+table tr td{
+    font-weight:bold;
+    width: 120px;
+    font-size: 17px;
+}
+
+.tkonfirm {
+    font-weight:normal;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#forminput {
+    border: 2px solid #B40301;
+    margin: 20px;
+    padding: 10px;
+}
+
+#tombol {
+    margin-top: 15px;
+    background:rgba(255,0,0,0.8);
+    color:white;
+    padding:10px;
+    width:80px;
+    border:1px solid #fff;
+}
+
+#tombol2 {
+    margin-top: 15px;
+    background:rgba(0,0,255,0.8);
+    color:white;
+    padding:10px;
+    width:80px;
+    border:1px solid #fff;
+}
+
+.kotak {
+    height: 220px;
+    width: 249px;
+    background-color: blue;
+    float: left;
+    border: 3px solid #B40301;
+    margin: 10px;
+}
+
+#lokasi {
+    list-style:none;
+    padding:10px;
+    background:rgba(255,0,0,0.7);
+    font-family:Cataneo BT;
+    font-weight:bold;
+    font-size:18px;
+    color:#FFF;
+    margin-top: 30px;
+    width: 276px;
+    border: 2px solid white;
+}
+
+#abc {
+    margin: 10px;
+    border: 2px solid red;
+    text-align: center;
+    height: auto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #B40301;
+}
+
+aside h3 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 2px solid white;
+    background: #B40301;
+    color: white;
+    display: inline-block;
+}
+
+.kamar {
+    padding:2px;
+    background-color:#FFF;
+    border-radius:5px;
+    height:315px;
+    text-align:center;
+    float: left;
+    border: 2px solid #B40301;
+    margin: 8px;
+}
+
+.kamar table {
+    float: left;
+    margin-top: 0;
+    margin: 5px;
+    width: 240px;
+}
+
+.idkamar {
+    padding-top:3px;
+    background-color:#EEEEEE;
+    color:#F90047;
+    font-weight:bold;
+    padding-bottom:2px;
+}
+
+.tipekamar {
+    padding-top:5px;
+    background:#B40301;
+    color:#FFF;
+    padding-bottom:5px;
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
+
+
