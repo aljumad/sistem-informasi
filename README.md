@@ -9,5 +9,5 @@ Library : - SweetAlert (Javascript) - FPDF (Laporan)
 # Login Admin
   user & pass : admin
 # Login User
-  user: ali
+  user: ali 
   pass: 123
